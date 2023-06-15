@@ -9,6 +9,8 @@ header {
     width: 100%;
     height: 50px;
     border-bottom: solid 1px black;
+    position: sticky;
+    top: 0;
 }
 .home {
     background-color: #FFC017;
@@ -19,9 +21,9 @@ header {
     border-bottom: solid 1px black;
 
 }
-.text_home {
+.text_home{
 
-    margin: 0 15vw;
+    margin: 0 10vw;
 
 }
 .text_home p {
@@ -34,7 +36,7 @@ header {
 .toolbar {
     display: flex;
     justify-content:space-between;
-    margin: 0 15vw;
+    margin: 0 10vw;
     line-height: 50px;
 }
 
@@ -46,17 +48,76 @@ header {
    
     display: flex;
     justify-content: center;
-    margin: 0 auto;
     flex-wrap: wrap;
+    border-bottom: solid 1px black;   
+    padding-bottom: 3rem;
     
-    
-    
+
 }
 .box {
     display: flex;
-    
+   
 }
 
 .box p {
     margin: 0.2rem 0.5rem;
+}
+
+#Trend  {
+    margin-left: 10vw;
+    margin-top: 3rem;
+}
+
+section {
+    display: flex;
+    margin: 0 10vw;
+    justify-content: space-between;
+}
+
+.news {
+
+    width: 60%;
+}
+
+.news_item {
+
+    display: flex;
+}
+
+.Twitter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contact {
+    position: sticky;
+    top: 51px;
+    height: 500px;
+    width: 400px;
+    
+    
+}
+.topic {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+
+    
+}
+.topic p {
+    padding: 8px 15px;
+}
+
+.Follow {
+    display: flex;
+    justify-content: space-between;
+}
+.Follow img {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
 }
