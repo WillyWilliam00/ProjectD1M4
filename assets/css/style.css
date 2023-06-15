@@ -41,3 +41,22 @@ header {
 .tool span {
     margin-right: 1em;
 }
+
+.boxes {
+   
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.box {
+    display: flex;
+    
+}
+
+.box p {
+    margin: 0.2rem 0.5rem;
+}
