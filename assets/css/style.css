@@ -7,15 +7,20 @@ body{
 header {
     background-color: #FFC017;
     width: 100%;
-    height: 50px;
+    height: 5rem;
     border-bottom: solid 1px black;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    
+}
+
+header img {
+    width: 200px;
+    height: 50px;
 }
 .home {
     background-color: #FFC017;
     width: 100%;
-    height: 450px;
+    height: 530px;
     display: flex;
     align-items: center;
     border-bottom: solid 1px black;
@@ -23,25 +28,76 @@ header {
 }
 .text_home{
 
-    margin: 0 10vw;
+    margin: 0 14vw;
+    display: flex;
+    flex-direction: column;
+    
 
 }
-.text_home p {
+
+.title {
 
     font-size: 110px;
-    margin-top: 0;
-    margin-bottom: 10px;
     font-weight: bold;
+    margin: 0;
+
 }
+.title p {
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 25px;
+    width: 65%;
+
+}
+.text_home .bottom {
+
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+
+
 .toolbar {
     display: flex;
     justify-content:space-between;
-    margin: 0 10vw;
-    line-height: 50px;
+    margin: 0 13vw;
+    height: 100%;
+    align-items: center;
 }
 
-.tool span {
+.tool {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.tool div {
+
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+   
+}
+
+
+.mr {
     margin-right: 1em;
+    font-weight: bold;
 }
 
 .boxes {
@@ -56,16 +112,52 @@ header {
 }
 .box {
     display: flex;
-   
+    
 }
 
-.box p {
-    margin: 0.2rem 0.5rem;
+.name {
+    display: flex;
+    align-items: center;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.info div h3,p {
+
+    margin: 0.5vh 0;
+}
+
+.info div {
+
+    width: 22rem;
+}
+
+.info div p {
+
+    color: gray;
+} 
+
+.name img{
+
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+}
+
 
 #Trend  {
-    margin-left: 10vw;
-    margin-top: 3rem;
+    margin-left: 14vw;
+    margin-top: 2rem;
+    display: flex;
+    
+}
+#Trend p {
+
+    margin-left: 0.7vw;
 }
 
 section {
@@ -92,7 +184,7 @@ section {
 }
 .contact {
     position: sticky;
-    top: 51px;
+    top: 5.1rem;
     height: 500px;
     width: 400px;
     
