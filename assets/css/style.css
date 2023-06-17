@@ -1,7 +1,12 @@
 
+
+  @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+
+ 
 body{
      margin: 0;
-     
+     font-family: 'Tinos', serif;
 }
 
 header {
@@ -38,17 +43,19 @@ header img {
 .title {
 
     font-size: 110px;
-    font-weight: bold;
+    
     margin: 0;
 
 }
-.title p {
+.title p, .number p, .item_name p {
     margin: 0;
 }
 
 .subtitle {
     font-size: 25px;
     width: 65%;
+    font-weight: bold;
+     color: rgba(41, 41, 41, 1)    
 
 }
 .text_home .bottom {
@@ -62,6 +69,7 @@ header img {
     background-color: black;
     color: white;
     font-size: 25px;
+    margin-top: 13vh;
 }
 
 
@@ -105,28 +113,51 @@ header img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border-bottom: solid 1px black;   
+    border-bottom: solid 1px rgba(230, 230, 230, 1);
     padding-bottom: 3rem;
     
 
 }
 .box {
     display: flex;
+
     
 }
 
+#boxm {
+
+    margin: 10px 0
+}
 .name {
     display: flex;
     align-items: center;
+    
 }
+
+.name  {
+
+    margin-left: 10px;
+}
+
+.number {
+
+    font-size: 38px;
+    margin: 0;
+    line-height: 50px;
+    color: rgba(230, 230, 230, 1);
+    font-weight: bold;
+ 
+}
+
 
 .info {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin-left: 10px;
+    
 }
 
-.info div h3,p {
+.info div h3 {
 
     margin: 0.5vh 0;
 }
@@ -139,31 +170,43 @@ header img {
 .info div p {
 
     color: gray;
+    margin-bottom: 0;
+    margin-top: 5px;
+    
 } 
 
-.name img{
+.stars {
+    display: flex;
+    align-items: end;
+}
+
+.name img, .item_name img{
 
     height: 20px;
     width: 20px;
     border-radius: 20px;
+    margin-right: 5px;
 }
 
 
 #Trend  {
-    margin-left: 14vw;
+    margin-left: 10.2vw;
     margin-top: 2rem;
     display: flex;
+    align-items: center;
     
 }
 #Trend p {
 
     margin-left: 0.7vw;
+    font-weight: bold;
 }
 
 section {
     display: flex;
     margin: 0 10vw;
     justify-content: space-between;
+    margin-top: 12vh;
 }
 
 .news {
@@ -174,6 +217,8 @@ section {
 .news_item {
 
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vw;
 }
 
 .Twitter {
@@ -212,4 +257,54 @@ section {
     height: 50px;
     width: 50px;
     border-radius: 50px;
+}
+
+.item_name {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+.item_desc h2,p {
+
+margin: 0;    
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 50px;
+}
+#info_day {
+    display: flex;
+    align-items: center;
+}
+
+#info_day img {
+
+    margin-left: 0.5vw;
+}
+
+#buttom  {
+
+    
+    height: 6vh;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vh;
+    margin-left: 0.5vw;
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.img  img{
+
+    width: 214px;
+}
+
+.vw30 {
+    width: 30vw;
 }
