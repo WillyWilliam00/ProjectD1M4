@@ -1,9 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 
-
-  @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
-
-
- 
 body{
      margin: 0;
      font-family: 'Tinos', serif;
@@ -212,8 +208,10 @@ section {
 .news {
 
     width: 60%;
-    padding: 12vh 0;
-    border-top: 1px solid rgba(230, 230, 230, 1);
+    padding: 8vh 0;
+    border-right: 1px solid rgba(230, 230, 230, 1);
+    padding-right: 3vw;
+    
 }
 
 .news_item {
@@ -227,24 +225,30 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-content: space-around;
+    height: 27vh;
+    width: 22vw;
+    margin: auto;
+    text-align: center;
+    border-bottom: solid 1px rgba(230, 230, 230, 1);
+    padding-bottom: 5vh;
+    margin-top: 5vh;
 }
 .contact {
     position: sticky;
     top: 5.1rem;
-    height: 500px;
+    height: 600px;
     width: 400px;
-    
+    overflow: scroll;
     
 }
 .topic {
     display: flex;
-    width: 400px;
+    width: 22vw;
     flex-wrap: wrap;
     justify-content: flex-start;
-    
+    margin: auto;
 
-    
 }
 .topic p {
     padding: 8px 15px;
@@ -253,6 +257,10 @@ section {
 .Follow {
     display: flex;
     justify-content: space-between;
+    width: 22vw;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 3vh;
 }
 .Follow img {
 
@@ -311,29 +319,14 @@ margin: 0;
     width: 30vw;
 }
 
-.follow
 
-{
 
-    display: flex;
-    
-    margin: 0 10vw;
-    margin-top: 5vh;
-
+.follow {
+    margin-bottom: 5vh;
 }
 
-.follow p {
 
-    
-    margin-right: 15px;
 
-}
-
-.follow p:hover {
-
-    font-weight: bold;
-    border-bottom: 2px solid black;
-}
 
 .fa-twitter {
 
@@ -348,4 +341,100 @@ margin: 0;
 .Twitter div ion-icon {
 
     font-size: 20px;
+}
+
+.choice {
+    display: flex;
+    
+    
+}
+
+.vuoto {
+
+   width: 58%;
+    border-bottom: solid 1px rgba(230, 230, 230, 1);
+}
+
+#following,#recommended  {
+
+    border-bottom: solid 1px rgba(230, 230, 230, 1);
+    margin: 0;
+    padding-right:5px;
+}
+
+#following:hover {
+
+    border-bottom: solid 1px black;
+    font-weight: bold;
+    cursor: pointer;
+}
+#recommended:hover {
+
+    border-bottom: solid 1px black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.twitter_button {
+
+    border: 1px solid;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Twitter a, #life {
+
+    color: gray;
+}
+
+.recbutton {
+
+    background-color: rgba(230, 230, 230, 1);
+    border-radius: 18px;
+    margin: 0 5px;
+    margin-bottom: 5px;
+}
+
+.Recommended {
+
+    margin-bottom: 40px;
+
+}
+
+.Follow_contact {
+
+    display: flex;
+    align-items: center;
+}
+
+.Follow_contact p {
+
+    margin-left: 10px;
+}
+
+#lessing {
+
+    font-weight: bold;
+}
+
+#follow_button {
+
+    border: 1px solid;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.cursor:hover {
+
+    cursor: pointer;
 }
